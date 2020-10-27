@@ -37,10 +37,10 @@
 </style>
 
 <svelte:head>
-	<title>Sapper project template</title>
+	<title>Teste Svelte Otavio - Ok</title>
 </svelte:head>
 
-<h1>Feito!</h1>
+<h1>Feito! Ok</h1>
 
 <figure>
 	<img alt="Success Kid" src="{successkid}">
