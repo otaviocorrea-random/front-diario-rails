@@ -37,13 +37,13 @@
 </style>
 
 <svelte:head>
-	<title>Sapper project template</title>
+	<title>Otavio - Teste Svelte</title>
 </svelte:head>
 
-<h1>Great success!</h1>
+<h1>Agora sim!</h1>
 
 <figure>
-	<img alt="Success Kid" src="{successkid}">
+	<img alt="Success Kid" src="https://www.meijer.com/content/dam/meijer/product/0063/05/0978/74/0063050978748_0_A1C1_0600.png">
 	<figcaption>Have fun with Sapper!</figcaption>
 </figure>
 
