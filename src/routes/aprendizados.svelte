@@ -1,6 +1,6 @@
 <script>
     const list = (async () => {
-        const response = await fetch('https://api-diario-rails-otavio.herokuapp.com/aprendizados.json', 
+        const response = await window.fetch('http://api-diario-rails-otavio.herokuapp.com/aprendizados.json', 
         {
             method: 'GET',
             headers: {'otavio': 'ok'}
@@ -21,7 +21,11 @@
 {#await list}
 	<p>...carregando lista de Aprendizados</p>
 {:then data}
-	{data}
+    <ul>
+        {#each data as item}
+            <li>{item.content}</li>
+        {/each}
+    </ul>
 {:catch error}
     {error}
 {/await}
