@@ -1,6 +1,6 @@
 <script>
     const list = (async () => {
-        const response = await window.fetch('http://api-diario-rails-otavio.herokuapp.com/aprendizados.json', 
+        const response = await window.fetch('https://api-diario-rails-otavio.herokuapp.com/aprendizados.json', 
         {
             method: 'GET',
             headers: {'otavio': 'ok'}
