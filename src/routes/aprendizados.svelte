@@ -163,6 +163,7 @@
         padding: 14px;
         border-left: solid 4px #1b066b;
         border-right: solid 4px #1b066b;
+        overflow-x: auto;
     }
     .list-item-buttons{
         display: grid;
