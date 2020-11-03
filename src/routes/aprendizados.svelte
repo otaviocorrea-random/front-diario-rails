@@ -57,7 +57,7 @@
 </script>
 
 <svelte:head>
-<title>Diário de Aprendizados</title>
+  <title>Diário de Aprendizados</title>
 </svelte:head>
 
 <form class="form" on:submit|preventDefault={createOrUpdate} >
